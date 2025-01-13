@@ -1,11 +1,11 @@
 # RESUMO DO QUE TERÁ NO SITE
-# Título: Hashzap
+# Título: ChatZap
 # Botão de iniciar chat
     # popup
-    # Título: "Bem vindo ao hashzap"
+    # Título: "Bem vindo ao ChatZap"
     # Campo de texto -> "Escreva seu nome no chat"
     # Botão: "entrar no chat"
-        # Sumir com o título "Hashzap"
+        # Sumir com o título "ChatZap"
         # Sumir com o botão "Iniciar chat"
         # Fechar o popoup
         # Carregar o chat
@@ -21,10 +21,10 @@ def main(pagina):
     #Criação de todas as funcionalidades
 
     #Criação do elemento
-    titulo = ft.Text("Hashzap")
+    titulo = ft.Text("ChatZap")
 
 
-    titulo_janela = ft.Text("Bem vindo ao hashzap")
+    titulo_janela = ft.Text("Bem vindo ao ChatZap")
     campo_nome_usuario = ft.TextField(label= "Escreva seu nome no chat") # TextField = Campo de texto (onde será inserido algo)
     
     chat = ft.Column()
